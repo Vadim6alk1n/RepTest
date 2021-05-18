@@ -167,14 +167,14 @@ public class Main extends Application {
 
 
         //add webview
-        WebView webView = new WebView();
+        /*WebView webView = new WebView();
         webView.getEngine().load("http://google.com");
         VBox vBox = new VBox(webView);
         vBox.setLayoutX(ScreenWidth);
         vBox.setLayoutY(0);
         vBox.setPrefWidth(1000);
         vBox.setPrefHeight(1000);
-        root.getChildren().add(vBox);
+        root.getChildren().add(vBox);*/
 
         //create scene and set it to stage
         var scene = new Scene(root, ScreenWidth, ScreenHeight);
